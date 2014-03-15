@@ -1,0 +1,30 @@
+2014-03-15: asuroflash 1.6.3
+ * switch build to CMake
+ * fix compilation with recent glib
+
+2009-01-22: asuroflash 1.6.2
+ * fix threading error
+
+2009-01-22: asuroflash 1.6.1
+ * build fixes
+ * change license to GPLv3
+
+2008-01-10: asuroflash 1.6
+ * use glib for getting XDG config dir
+ * now uses a real config parser
+ * now probes for terminals instead of guessing
+ * ttyUSB recognised
+ * bug fixes & cleanups
+
+2006-08-27: asuroflash 1.5
+ * config file now saved under ~/.config/asuroflash
+ * code cleanup
+ * when launched without arguments a nice GTK frontend is now displayed
+
+2006-08-05: asuroflash 1.2
+ * first argument is now full path to ttyS and can take any terminal number
+ * config file now saved under ~/.asuroflash
+ * terminal and file path are not saved in config file any more
+ * different config file format
+ * coloured output
+ * clearer message formulation
